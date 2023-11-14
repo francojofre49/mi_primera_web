@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Primera Web</title>
+   
+
+    <script src="https://kit.fontawesome.com/6d897a0b47.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/favicon/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0. maximum-scale=1.0, minimun-scale=1.0"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="encabezado">
+        <a href="index.html"
+          ><img src="./img/Logo_2-removebg-preview.png" alt="logotipo"
+        /></a>
+      
+        <nav>
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <ul class="menu">
+       
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#acerca-de">Acerca de mi</a></li>
+            <li><a href="#trabajo">Trabajo</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+           <li><a href="#contacto">Contacto</a></li> 
+          
+                
+       
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main id="seccion-principal">
+        <section class="seccion-1">
+          <div id="acerca-de" class="acerca-de">
+            <h2>Acerca de mí</h2>
+            <p class="parrafo1">
+              ¡Bienvenido a mi página! Aquí, aprenderás más sobre mí.
+            </p>
+            <p class="parrafo2">
+              Soy Franco Jofre, un estudiante de programación web en Egg. Como
+              aspirante a desarrollador full stack, anhelo trabajar en empresas
+              innovadoras como Egg o Mercado Libre.<br />
+              Mi enfoque principal es mi crecimiento en el desarrollo web,
+              buscando oportunidades para aplicar mis habilidades y continuar
+              aprendiendo. Con una mente inquieta y equilibrio en mis
+              pasatiempos, estoy ansioso por explorar nuevas oportunidades en mi
+              carrera y aportar valor en el mundo laboral.
+            </p>
+          </div>
+          <div class="acerca-imagen">
+            <img
+              class="foto-perfil"
+              src="img/hero-img.jpg"
+              alt="imagen personal"
+            />
+          </div>
+        </section>
+        <section class="seccion-2">
+          <img
+            class="carrusel"
+            src="img/carrusel-img.jpg"
+            alt="imagen de carrusel"
+          />
+        </section>
+        <section id="trabajo" class="trabajo">
+          <div><h2>TRABAJOS</h2></div>
+          <div class="tarjetas">
+            <div class="tarjeta">
+              <div class="imagen-tarjeta">
+                <img src="./img/card.jpg" alt="imagen tarjeta" />
+              </div>
+              <div>
+                <h3>Titulo 1</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                  delectus iste consectetur debitis illum dolorem, minus quas
+                  earum odit cupiditate, voluptates quo suscipit laborum sunt
+                  autem impedit fugiat. Rerum, repellat.
+                </p>
+                <button>Saber mas</button>
+              </div>
+            </div>
+            <div class="tarjeta">
+              <div class="imagen-tarjeta">
+                <img src="./img/card.jpg" alt="imagen tarjeta" />
+              </div>
+              <div>
+                <h3>Titulo 2</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati provident magni aut enim excepturi voluptatum quas nulla, optio veniam? Sapiente, laborum qui commodi porro enim dignissimos ipsam numquam illo minus?
+                </p>
+                <button>Saber mas</button>
+              </div>
+            </div>
+            <div class="tarjeta">
+              <div class="imagen-tarjeta">
+                <img src="./img/card.jpg" alt="imagen tarjeta" />
+              </div>
+              <div>
+                <h3>Titulo 3</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, quam eligendi quibusdam aut iure natus delectus iusto? Repellat, sit exercitationem, quibusdam placeat culpa eligendi tempora itaque voluptatem molestias praesentium dolor.
+                </p>
+                <button>Saber mas</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <section class="formulario-seccion" id="contacto">
+      
+          <h1>Contacto</h1>
+          <p><em>¡Espero tu consulta!</em></p>
+    
+          <form action="" method="get" class="formulario" id="form">
+            <div class="form-row">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" type="text" />
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="pepe@gmail.com"
+                required
+              />
+            </div>
+            <div class="form-row">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje"   required></textarea>
+            </div>
+            <div class="form-row " id="boton" >
+              <button type="submit" id="submit">Enviar</button>
+            </div>
+            <p class="alertas" id="alertas"></p>
+          </form>
+         
+     
+    
+      </section>
+      <footer>
+        <div>
+          <h3>Redes Sociales</h3>
+        </div>
+        <div class="redes">
+          <ul>
+            <li>
+              <a href="http://www.facebook.com"
+                ><img class="ico" src="./img/facebook.png" alt="icono facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="http://www.instagram.com"
+                ><img
+                  class="ico"
+                  src="./img/instagram.png"
+                  alt="icono instagram"
+              /></a>
+            </li>
+            <li>
+              <a href="https://ar.linkedin.com"
+                ><img
+                  class="ico" id="linkedin"
+                  src="./img/pngegg.png"
+                  alt="icono linkedin"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
