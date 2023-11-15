@@ -36,73 +36,7 @@ header a img:hover {
   display: none;
 }
 
-/*menu desplegable responsive
-.respmenu {
-  display: none;
-}
-.respmenu a {
-  color: inherit;
-  text-decoration: none;
-  display: block;
 
-  padding: 10px 20px;
-  border-bottom: 2px solid #793b3b;
-  max-width: 200px;
-  background: #813f3f;
-  font-variant: small-caps;
-  text-shadow: 1px 1px black;
-}
-.respmenu nav ul {
-  display: flex;
-  flex-direction: column;
-}
-.respmenu input[type="checkbox"],
-.respmenu .fa-bars,
-.respmenu .fa-times {
-  position: absolute;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  right: 0;
-  top: 0;
-  width: 48px;
-  height: 48px;
-}
-
-.respmenu .fa-bars,
-.respmenu .fa-times {
-  font-size: 48px;
-  pointer-events: none;
-}
-
-.respmenu input[type="checkbox"] {
-  opacity: 0;
-}
-
-.respmenu {
-  color: white;
-  position: relative;
-  background: #ffffff;
-  min-height: 48px;
-}
-
-.respmenu nav {
-  display: none;
-}
-
-.respmenu input:checked ~ nav {
-  display: block;
-}
-
-.respmenu input:checked ~ .fa-bars {
-  display: none;
-}
-
-.respmenu input:not(:checked) ~ .fa-times {
-  display: none;
-}
-
-menu desplegable responsive*/
 /*menu desplegable*/
 .desplegable:hover .submenu {
   display: block;
